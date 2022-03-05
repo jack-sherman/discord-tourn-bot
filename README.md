@@ -19,5 +19,6 @@ This is just a bot I wrote to help organize an online tournament that some frien
 
 ## Design:
  Bot was designed using discord.py and communicates with game API to get data from a specific match.
+ 
  Bot is connected to a postgres database which stores registered users, registered teams, overall scores of each team, and session scores for each team.
 
