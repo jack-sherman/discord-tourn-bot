@@ -49,7 +49,7 @@ APIKEY = os.getenv('ERBS_TOKEN')
 def get_game(gameid):
     headers = {
         'accept': 'application/json',
-        'x-api-key': 'Q1bnTctw88aZmijZ7zOYR8yTOXkpeddC2Kfy2DAv',
+        'x-api-key': '-------------------------------',
     }
 
     response = requests.get('https://open-api.bser.io/v1/games/{}'.format(gameid), headers=headers)
